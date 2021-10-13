@@ -8,7 +8,7 @@ fun main() {
     var num1 = 10
     var num2 = 20
     var sum = num1 + num2
-    
+
     // 문자열 template 식
     // 문자열 내부에 $변수명 형식으로 작성을 하면
     // 변수값을 연산하여 문자열로 변환 후 사용 가능
@@ -29,23 +29,23 @@ fun main() {
     // var 변수명:변수타입 = 초기값
 
     // 정수형
-    var var1:Int = 0 // 4byte
-    var var2:Long = 0L // 8byte
-    var byte1:Byte = 0 // 1byte 정수 - (-128) ~ 127까지만 저장 가능
+    var var1: Int = 0 // 4byte
+    var var2: Long = 0L // 8byte
+    var byte1: Byte = 0 // 1byte 정수 - (-128) ~ 127까지만 저장 가능
 
     // 실수형
-    var var3:Float = 3.0F // 4byte
-    var var4:Double = 3.0 // 8byte
+    var var3: Float = 3.0F // 4byte
+    var var4: Double = 3.0 // 8byte
 
     // 문자열형
-    var var5:String = "KOREA"
+    var var5: String = "KOREA"
 
     // 문자형
     // "A"는 오류
-    var char1:Char = 'A'
+    var char1: Char = 'A'
 
     // 논리형
-    var bYes:Boolean = true
+    var bYes: Boolean = true
 
 }
 

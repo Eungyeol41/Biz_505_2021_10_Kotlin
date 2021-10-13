@@ -13,7 +13,7 @@ fun main() {
     var str = "12345"
     // num1 = str
     // 문자열형 숫자를 정수형 숫자로 변환하여 정수형 변수에 담기기
-   num1 = Integer.parseInt(str)
+    num1 = Integer.parseInt(str)
 
     str = "$num1"
     str = num1.toString()

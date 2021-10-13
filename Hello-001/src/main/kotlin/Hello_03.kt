@@ -15,17 +15,17 @@ fun main() {
     var str1 = ""
 
     // 제한적으로 str2 변수는 null값을 저장할 수 있다
-    var str2:String? = null
+    var str2: String? = null
     println(str2.toString())
 
-    if(str2 == null) {
+    if (str2 == null) {
         println("str2는 null이다")
     }
 
     // str2 = num || "str2는 null"
-    println(str2?: "str2는 null")
+    println(str2 ?: "str2는 null")
 
     // 만약 str2가 null이면 str2에 Korea 문자열을 저장하라
-    str2 = str2?: "Korea"
+    str2 = str2 ?: "Korea"
     println(str2)
 }
