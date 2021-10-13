@@ -14,30 +14,18 @@ fun main() {
      *
      * 2 ~ (자기자신 -1)까지 범위의 숫자와 나누어 나머지가 한 번도 나오지 않는 숫자
      */
+    var bYes: Boolean = true
     for (num in 2..(num1 - 1)) {
-
-        var bYes: Boolean = true
         if (num1 % num == 0) {
             bYes = false
-            return
+            break
         }
-
-        if (bYes) {
-            println("$num1 은 소수가 아님")
-        } else {
-            println("$num1 은 소수")
-        }
-
-//        if(num1 % num == 0) {
-//            println("$num1 은 소수가 아님")
-//            break
-//        } else {
-//            println("$num1 은 소수")
-//            break
-//        }
-
     }
-    println()
 
+    if (bYes) {
+        println("$num1 은 소수")
+    } else {
+        println("$num1 은 소수가 아님")
+    }
 
 }
